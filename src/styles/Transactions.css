@@ -1,0 +1,75 @@
+.transactions-page {
+  min-height: 100vh;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align:center;
+}
+
+.transactions-card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  text-align:center;
+}
+
+.transactions-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.no-transactions {
+  text-align: center;
+  color: #666;
+}
+
+/* TABLE STYLE */
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.transaction-table th {
+  background: #f1f5f9;
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  text-align:center;
+}
+
+.transaction-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.transaction-table tr:hover {
+  background: #f9fafb;
+}
+
+/* CREDIT / DEBIT COLORS */
+
+.debit {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.credit {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.amount-debit {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.amount-credit {
+  color: #16a34a;
+  font-weight: bold;
+}

@@ -1,0 +1,42 @@
+.dashboard-container {
+  padding: 40px;
+}
+
+.dashboard-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.dashboard-quote {
+  font-style: italic;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.module-card {
+  background: white;
+  border-radius: 18px;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.module-card h3 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.module-card:hover {
+  transform: translateY(-8px);
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}

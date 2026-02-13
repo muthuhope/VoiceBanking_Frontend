@@ -1,0 +1,49 @@
+.account-page {
+  min-height: 100vh;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-card {
+  background: white;
+  padding: 50px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.account-card h2 {
+  margin-bottom: 30px;
+}
+
+.account-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.info-box {
+  flex: 1;
+  background: #f5f7fa;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.info-box p {
+  font-size: 14px;
+  color: #666;
+}
+
+.info-box h3 {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.balance {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}

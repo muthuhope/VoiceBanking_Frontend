@@ -1,0 +1,92 @@
+/* Container */
+.voice-assistant {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+
+/* Title */
+.voice-assistant h3 {
+  color: #4a90e2;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Select box with colorful options trick */
+.voice-assistant select {
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 2px solid #667eea;
+  font-size: 16px;
+  width: 220px;
+  cursor: pointer;
+  color: white; /* text color for selected option */
+  font-weight: 500;
+  text-align: center;
+
+  /* Gradient background */
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  transition: all 0.3s ease;
+}
+
+/* Focus effect */
+.voice-assistant select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(153, 10, 148, 0.5);
+}
+
+/* For older Firefox: style dropdown text */
+.voice-assistant select option {
+  color: #333;
+  background-color: #f0f4ff; /* light background for options */
+  font-weight: 500;
+  padding: 8px;
+}
+
+/* Optional hover effect on options (works in Firefox only) */
+.voice-assistant select option:hover {
+  background-color: #667eea;
+  color: white;
+  font-weight: bold;
+}
+
+/* Button */
+.voice-assistant button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(163, 16, 16, 0.2);
+  transition: all 0.3s ease;
+}
+
+.voice-assistant button:hover {
+  opacity: 0.95;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(8, 8, 9, 0.4);
+}
+.voice-assistant select option{
+  color: #333;
+  background-color:antiquewhite; /* light background for options */
+  font-weight: 500;
+  padding: 8px;
+  text-align:center;  
+
+}
+.voice-assistant select option:hover{
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
