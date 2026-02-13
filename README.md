@@ -1,16 +1,81 @@
-# React + Vite
+# Voice Banking System - Frontend
+React-based frontend application for the Voice Banking System.  
+This application provides an interactive UI for performing banking operations, including voice-enabled transactions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
+- React.js
+- JavaScript (ES6+)
+- React Router
+- CSS
+- Web Speech API (Speech Recognition & Speech Synthesis)
+- REST API Integration
+- 
+## Features
+- User Registration
+- User Login
+- Dashboard Overview
+- Account Balance View
+- Send Money Module
+- Transaction History (Credit/Debit Highlighted)
+- Multilingual Voice Support
+- Voice Confirmation for Transactions
+- Responsive Modern UI
 
-Currently, two official plugins are available:
+## Project Structure
+src/
+│
+├── pages/           # Login, Register, Dashboard, Account, Transactions
+├── components/      # VoiceAssistant and reusable components
+├── styles/          # CSS files
+├── api.js           # API integration helper
+└── App.jsx          # Main router setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
 
-## React Compiler
+### 1. Clone Repository
+git clone https://github.com/YOUR_USERNAME/VoiceBanking-Frontend.git
+cd VoiceBanking-Frontend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2️. Install Dependencies
+npm install
 
-## Expanding the ESLint configuration
+### 3️. Start Development Server
+npm run dev
+Application will run at:```
+http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Voice Feature
+This project uses the **Web Speech API** for:
+- Speech Recognition
+- Speech Synthesis
+
+Supported Languages:
+- English
+- Hindi
+- Tamil
+- Telugu
+- Malayalam
+- 
+## Backend Integration
+Ensure backend is running at:
+http://localhost:8080
+API calls are configured in:
+src/api.js
+
+## Future Improvements
+- JWT Authentication Handling
+- Dark Mode UI
+- AI-based Intent Detection
+- Real-Time Notifications
+- Mobile Optimization
+
+## Author
+Muthukumaran M
+
+
+
+
+
+
+
+
